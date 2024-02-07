@@ -12,6 +12,7 @@ public class ThreadsController {
         this.vegetablesThread = new VegetablesThread();
 
     }
+
     public void StartThreads() {
         vegetablesThread.run();
         fruitsThread.run();

@@ -7,5 +7,5 @@ public class Main {
         ThreadsController threadsController = new ThreadsController();
         threadsController.StartThreads();
     }
-    
+
 }
