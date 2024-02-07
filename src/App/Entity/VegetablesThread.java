@@ -1,4 +1,4 @@
-package App.Model;
+package App.Entity;
 
 public class VegetablesThread extends Thread {
     private String[] vegetables= {"carrot", "cucumber", "lettuce", "onion", "potato", "tomato"};
