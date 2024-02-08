@@ -13,9 +13,8 @@ public class ThreadsController {
 
     }
 
-    public void StartThreads() {
-        vegetablesThread.run();
-        fruitsThread.run();
-
+    public void startThreads() {
+        vegetablesThread.start();
+        fruitsThread.start();
     }
 }
